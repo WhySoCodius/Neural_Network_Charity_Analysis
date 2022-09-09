@@ -85,6 +85,6 @@ In this investigation, optimization attempt succeeded in creating a model with a
 - Additional neurons are added to hidden layers. 
 - Making use of various activation mechanisms. 
 
-There may be a variety of explanations for why this model was unable to achieve the desired prediction accuracy level of 75%. It might be necessary to modify the amount of neurons in the buried layers. During training, the number of epochs may need to be raised. There could be anomalies or factors in the input data that throw the model off.
+There may be a variety of explanations for why this model was unable to achieve the desired prediction accuracy level of 75% in the first 2 attempt. But in the final attempt we succeeded to attain the desired level of accuracy at 76.90%. It might be necessary to modify the amount of neurons in the buried layers. During training, the number of epochs may need to be raised. There could be anomalies or factors in the input data that throw the model off.
 
 In this binary classification job, a Random Forest Classifier may be preferred than a Deep Learning model. Random Forest Classifiers are far easier to set up and can be trained in a matter of seconds, in contrast to Deep Learning models, which require extensive setup and lengthy training. Furthermore, these two models' levels of prediction accuracy would probably be comparable. It is advised that any further work on this project make use of a Random Forest Classifier due to its simplicity of usage and suitability for this case.
